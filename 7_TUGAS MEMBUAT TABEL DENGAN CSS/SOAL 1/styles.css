@@ -1,0 +1,95 @@
+/* Reset ringan */
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
+
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 0 16px;
+}
+
+/* Section title */
+.section { margin-bottom: 40px; }
+.section-title {
+  font-size: 18px;
+  margin: 8px 0 18px;
+  color: #222;
+}
+
+/* ---------------------------
+   Pricing cards (bagian atas)
+   --------------------------- */
+
+.pricing-wrapper {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+/* Basic card */
+.pricing-card {
+  flex: 1 1 300px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+/* Header warna */
+.card-header {
+  padding: 18px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Specific colors */
+.pricing-card.free .card-header { background: #1E90FF; }       /* biru */
+.pricing-card.premium .card-header { background: #FF8C00; }    /* orange */
+.pricing-card.pro .card-header { background: #2E8B57; }        /* hijau */
+
+.price {
+  display: block;
+  font-weight: 600;
+  font-size: 13px;
+  opacity: 0.95;
+  margin-top: 6px;
+}
+
+/* Fitur list */
+.features {
+  list-style: none;
+  padding: 18px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #333;
+  background: #fafafa;
+}
+.features li {
+  padding: 8px 10px;
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+}
+
+/* Tombol */
+.btn {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 16px;
+  margin: 16px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 700;
+}
+
+/* Tombol sesuai warna kartu */
+.pricing-card.free .btn { background: #1E90FF; }
+.pricing-card.premium .btn { background: #FF8C00; }
+.pricing-card.pro .btn { background: #2E8B57; }
