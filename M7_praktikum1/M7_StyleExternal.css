@@ -1,0 +1,136 @@
+/* === dasar === */
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f8fb;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* === HEADER === */
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.tagline {
+    font-size: 10px;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* === KONTEN UTAMA === */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 40px auto;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+/* === ARTIKEL === */
+article {
+    flex: 2;
+    background-color: #e1e0e7;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+article h2 {
+    color: #061280;
+    margin-top: 0;
+}
+
+.tanggal {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.gambar-artikel {
+    width: 90%;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+article h3 {
+    color: #004b8d;
+    margin-top: 25px;
+}
+
+ul {
+    background-color: #eef4ff;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+/* === SIDEBAR === */
+aside {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    height: fit-content;
+}
+
+aside h3 {
+    color: #003366;
+    border-bottom: 2px solid #0059b3;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 12px 0;
+}
+
+aside a {
+    text-decoration: none;
+    color: #0059b3;
+    transition: 0.2s;
+}
+
+aside a:hover {
+    color: #00264d;
+    text-decoration: underline;
+}
+
+/* === FOOTER === */
+footer {
+    background-color: #00264d;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.posisiImg {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

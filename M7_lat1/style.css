@@ -1,0 +1,15 @@
+ h1 {
+     background-color: aqua;
+     font-family: Arial;
+     font-size: large;
+     }
+        p.paragraf2 {
+            background-color: blanchedalmond;
+            font-size: medium;
+            font-style: italic;
+            font-family: "Times New Roman";
+        }
+        p.paragraf3{
+            font-size: medium;
+            font-family: "Courier New";
+        }
